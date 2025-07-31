@@ -1,4 +1,5 @@
 gradio
 tensorflow
+gdown
+numpy
 Pillow
-requests

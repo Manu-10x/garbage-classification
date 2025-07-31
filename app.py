@@ -6,12 +6,12 @@ from PIL import Image
 import os
 
 # Model file name
-model_file = "efficientnetv2b2.keras"
+model_file = "efficientnetv2b2 (1).keras"
 
 # Download from Google Drive if not present
 if not os.path.exists(model_file):
     gdown.download(
-        "https://drive.google.com/uc?id=10cfH3AeLud37TuQ-abrv67UPLPdFlF1e", 
+       "https://drive.google.com/uc?id=10cfH3AeLud37TuQ-abrv67UPLPdFlF1e", 
         model_file, quiet=False
     )
 

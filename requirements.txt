@@ -1,5 +1,6 @@
 gradio
 tensorflow
+matplotlib
+seaborn
+scikit-learn
 gdown
-numpy
-Pillow
